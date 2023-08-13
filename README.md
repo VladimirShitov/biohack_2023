@@ -22,13 +22,18 @@ Single-Cell RNA-sequencing data allows researchers to describe cell variability 
 
 We developed a neural-network model to learn distances between samples using a contrastive learning framework. The ideas were heavily inspired by SimCLR [1] and Unsupervised visualization of image datasets [2].
 
+![images/architecture.png](images/architecture.png)
+
 ### Task 2 – hyperparameters search
 
 We tested architectures with different depths and widths, and hyperparameters, such as the number of cells per sample and batch size.
+![images/hyperparameters.png](images/hyperparameters.png)
+
+We noted that models with smaller widths (3-5 hidden layers) better capture patient covariates. Networks with more than 11 hidden layers were not learning well.
 
 ### Task 3 – Baseline comparison
 
-We compared sample-sample distances obtained from a learned representation with distances calculated from a total pseudobulk (per gene average) of each sample.
+We compared sample-sample distances obtained from a learned representation with distances calculated from a total pseudobulk (per feature average) of each sample. 
 
 ### Task 4 – Interpretation of representation
 
