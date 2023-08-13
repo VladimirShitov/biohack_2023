@@ -42,5 +42,5 @@ We used the following approach to interpret learned representations
 # References 
 1. Ting Chen, Simon Kornblith, Mohammad Norouzi, & Geoffrey Hinton. (2020). A Simple Framework for Contrastive Learning of Visual Representations.
 2. Jan Niklas Böhm, Philipp Berens, & Dmitry Kobak. (2023). Unsupervised visualization of image datasets using contrastive learning.
-3. COvid-19 Multi-omics Blood ATlas (COMBAT) Consortium. Electronic address: julian.knight@well.ox.ac.uk, & COvid-19 Multi-omics Blood ATlas (COMBAT) Consortium (2022). A blood atlas of COVID-19 defines hallmarks of disease severity and specificity. Cell, 185(5), 916–938.e58. https://doi.org/10.1016/j.cell.2022.01.012
+3. COvid-19 Multi-omics Blood ATlas (COMBAT) Consortium. A blood atlas of COVID-19 defines hallmarks of disease severity and specificity. Cell, 185(5), 916–938.e58. https://doi.org/10.1016/j.cell.2022.01.012
 
