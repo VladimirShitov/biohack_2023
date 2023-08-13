@@ -34,6 +34,7 @@ We noted that models with smaller widths (3-5 hidden layers) better capture pati
 ### Task 3 – Baseline comparison
 
 We compared sample-sample distances obtained from a learned representation with distances calculated from a total pseudobulk (per feature average) of each sample. 
+![images/results.png](images/results.png)
 
 ### Task 4 – Interpretation of representation
 
