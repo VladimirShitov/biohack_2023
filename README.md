@@ -45,6 +45,14 @@ We used the following approach to interpret learned representations
 
 ### Task 5 – Prior knowledge check
 
+## Conclusions
+
+- Representation learning **captures biological variability** but is also affected by technical covariates
+- Models with 3-5 neurons, batch size 64 and 1000 cells for sample representation **work the best**
+- **Biological interpretation is complicated** because patients’ features are dependent on each other and technical covariates
+- **Baseline model works very well**, more work is needed to beat it
+
+
 # References 
 1. Ting Chen, Simon Kornblith, Mohammad Norouzi, & Geoffrey Hinton. (2020). A Simple Framework for Contrastive Learning of Visual Representations.
 2. Jan Niklas Böhm, Philipp Berens, & Dmitry Kobak. (2023). Unsupervised visualization of image datasets using contrastive learning.
