@@ -34,7 +34,6 @@ We noted that models with smaller widths (3-5 hidden layers) better capture pati
 ### Task 3 – Baseline comparison
 
 We compared sample-sample distances obtained from a learned representation with distances calculated from a total pseudobulk (per feature average) of each sample. 
-![images/results.png](images/results.png)
 
 ### Task 4 – Interpretation of representation
 
@@ -42,8 +41,12 @@ We used the following approach to interpret learned representations
 1. Calculation of the sample-sample distance matrix. This is not necessary for the following analysis but makes it easier to compare results to a different method. We used COVID-19 single-cell data from COMBAT consortium [3].
 2. Clustering of samples using the leiden algorithm.
 3. Statistical testing (using the Chi-square test), whether the biological variability (Outcome of the patients) and technical covariate (Institute, where samples were collected and prepared) differ between clusters. Note that the representation is obtained in purely unsupervised way, and the model doesn't know anything about outcome or other patients covariates. Thus, if there is a structure in the data, it is explained either by biology or by technical batch effects.
+   
+![images/results.png](images/results.png)
 
 ### Task 5 – Prior knowledge check
+
+Not completed during the hackathon :(
 
 ## Conclusions
 
